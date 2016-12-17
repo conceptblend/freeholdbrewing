@@ -1,0 +1,45 @@
+// components/_fhb-follow-cta.sass
+
+@import '../reference/reference';
+
+$block: 'fhb-follow-cta';
+
+.#{$block} {
+	background-color: $fhb-grey;
+	color: $white;
+	font-size: 48px;
+	margin-left: ($grid-gutter-width / -2);
+	margin-right: ($grid-gutter-width / -2);
+	padding: $global-vertical-spacing-base * 2;
+	text-align: center;
+
+	&__logo {
+		/* Instagram: use letter 'i' */
+		color: $white;
+		font-family: SocialicoPlus;
+		font-size: 100px;
+		line-height: 1;
+	}
+
+	a {
+		color: $white;
+		display: block;
+		text-decoration: none;
+
+		& p {
+			font-size: 24px;
+
+			strong {
+				display: block;
+
+				@include media-breakpoint-up(sm) {
+					display: inline;
+				}
+			}
+		}
+
+		&:hover p strong {
+			border-bottom: 1px solid $white;
+		}
+	}
+}

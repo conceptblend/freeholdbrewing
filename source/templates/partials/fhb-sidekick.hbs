@@ -1,0 +1,13 @@
+<!--div class="container"-->
+	<div class="row fhb-sidekick fhb-sidekick--ratio-{{#if ratio}}{{ratio}}{{else}}4x3{{/if}} fhb-sidekick--align-{{#if alignment}}{{alignment}}{{else}}right{{/if}}">
+		<img class="fhb-sidekick__image" src="/images/cooper_{{#if ratio}}{{ratio}}{{else}}4x3{{/if}}.jpg" alt="image" />
+		<div class="fhb-sidekick__details fhb-sidekick__details--{{brandColor}}">
+			{{#if heading}}
+				<h3 class="fhb-sidekick__heading">{{heading}}</h3>
+			{{/if}}
+			{{#if actionUrl}}
+				<a href="{{actionUrl}}" class="fhb-sidekick__cta">{{#if actionLabel}}{{actionLabel}}{{else}}View{{/if}}</a>
+			{{/if}}
+		</div>
+	</div>
+<!--/div-->
