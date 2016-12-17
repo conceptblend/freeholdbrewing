@@ -1,20 +1,20 @@
 {
-	"title": "Habanero Prototype Boilerplate",
-	"description": "The Habanero Prototype Boilerplate is a simple template to help you get started.",
-	"keywords": "html, JavaScript, CSS, LESS, boilerplate",
+	"title": "Prototype | Freehold Brewing Co.",
+	"description": "Prototype demonstrating layouts for Freehold Brewing Co.",
+	"keywords": "beer, calgary, craft, craft beer",
 	"emails": {
-		"support": "support@habaneroconsulting.com"
+		"support": "hello@freeholdbrewing.ca"
 	},
 	"twitter": {
 		"card": "product",
-		"site": "@HabaneroConsult"
+		"site": "@freeholdbrewing"
 	},
 	"opengraph": {
-		"title": "Habanero Prototype Boilerplate",
+		"title": "Freehold Brewing Co.",
 		"type": "website",
-		"sitename": "Habanero Prototype Boilerplate",
-		"image": "http://habaneroconsulting.github.io/habanero-prototype-boilerplate/images/opengraph.png",
-		"url": "http://habaneroconsulting.github.io/habanero-prototype-boilerplate",
+		"sitename": "Freehold Brewing Co.",
+		"image": "",
+		"url": "http://www.freeholdbrewing.ca/",
 		"locale": "en_US"
 	},
 	"gtm": ""

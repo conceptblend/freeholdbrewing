@@ -2,24 +2,18 @@
 title: Home
 layout: default
 ---
-{{#markdown}}
 
-# Habanero Prototype Boilerplate [![devDependency Status](https://david-dm.org/habaneroconsulting/habanero-prototype-boilerplate/dev-status.svg)](https://david-dm.org/habaneroconsulting/habanero-prototype-boilerplate#info=devDependencies)
+{{> fhb-brand-hero }}
 
-A simple boilerplate to start off prototyping. Built with HTML5 Boilerplate, Normalize, Twitter Bootstrap, Assemble, and Grunt.
+{{!--> fhb-ribbon --}}
 
-## Build Instructions
+{{> fhb-our-story }}
 
-1. Install [NodeJS](http://nodejs.org/).
+{{> fhb-follow-cta }}
 
-2. Run `npm install` at the root project folder.
+{{> fhb-sidekick ratio='16x9' alignment='right' actionUrl='/examples.html' actionLabel='Details' heading='Meet FBL, our latest Black Lager.'}}
 
-    This will read the *package.json* file and pull in all required node modules and put into a directory called *node_modules*.
+{{> fhb-summary-item }}
 
-3. Use `npm` to build:
+{{> fhb-summary-item twoCol='true' }}
 
-    - `npm run build` will create a debug/test version of the site
-    - `npm run production` will create a production version of the site (i.e. JavaScript and CSS concatenated and minified)
-    - `npm start` will create the debug/test version of the site, then create a simple testing server
-
-{{/markdown}}

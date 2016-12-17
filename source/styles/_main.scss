@@ -2,6 +2,31 @@
 
 @import 'reference/reference';
 
+@include font-face('FHB Skinny Clean', '32A5F4_1_0.woff');
+@include font-face('FHB Heavy Clean', '32A5F4_2_0.woff');
+@include font-face('FHB Skinny Distressed', '32A5FC_5_0.woff');
+@include font-face('FHB Heavy Distressed', '32A5FC_3_0.woff');
+
 html {
 	overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'FHB Skinny Clean', Helvetica;
+	font-weight: 300;
+	letter-spacing: -.125em;
+	text-transform: uppercase;
+}
+
+body {
+	line-height: $line-height-body;
+}
+
+p {
+	font-weight: $font-weight-light;
 }
