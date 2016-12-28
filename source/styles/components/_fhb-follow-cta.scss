@@ -5,12 +5,11 @@
 $block: 'fhb-follow-cta';
 
 .#{$block} {
-	background-color: $fhb-grey;
+	background-color: $black;
 	color: $white;
 	font-size: 48px;
 	margin-left: ($grid-gutter-width / -2);
 	margin-right: ($grid-gutter-width / -2);
-	padding: $global-vertical-spacing-base * 2;
 	text-align: center;
 
 	&__logo {
@@ -23,7 +22,8 @@ $block: 'fhb-follow-cta';
 
 	a {
 		color: $white;
-		display: block;
+		display: inline-block;
+		padding: $global-vertical-spacing-base * 2;
 		text-decoration: none;
 
 		& p {
@@ -38,8 +38,10 @@ $block: 'fhb-follow-cta';
 			}
 		}
 
-		&:hover p strong {
-			border-bottom: 1px solid $white;
+		@include media-breakpoint-up(sm) {
+			&:hover p strong {
+				border-bottom: 1px solid $white;
+			}
 		}
 	}
 }
