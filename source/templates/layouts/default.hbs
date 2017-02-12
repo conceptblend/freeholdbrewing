@@ -5,13 +5,20 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- while in prototype mode -->
-	<meta name="robots" content="noindex, nofollow">
-	<!-- /prototype mode -->
+	{{#if site.debug}}
+		<!-- while in prototype mode -->
+		<meta name="robots" content="noindex, nofollow">
+		<!-- /prototype mode -->
+	{{else}}
+		<meta name="robots" content="index, follow">
+	{{/if}}
+	
 
 	{{> head-opengraph }}
 
 	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700&subset=latin" rel="stylesheet">
 
 	<!-- build:css(./.tmp) styles/styles.min.css -->
 	<link rel="stylesheet" href="styles/style.css">
@@ -30,6 +37,7 @@
 
 	</div>
 
+	{{!--
 	<!-- build:js(./source) scripts/vendor/jquery.min.js -->
 	<script src="scripts/vendor/jquery/jquery.js"></script>
 	<!-- endbuild -->
@@ -37,5 +45,6 @@
 	<!-- build:js(./source) scripts/main.min.js -->
 	<script src="scripts/main.js"></script>
 	<!-- endbuild -->
+	--}}
 </body>
 </html>

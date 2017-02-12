@@ -5,7 +5,13 @@
 $block: 'fhb-follow-cta';
 
 .#{$block} {
-	background-color: $black;
+	//background-color: $black;
+	background-attachment: scroll;
+	background-color: $deep-black;
+	background-image: url('../images/instagram-banner.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: $white;
 	font-size: 48px;
 	margin-left: ($grid-gutter-width / -2);
@@ -15,9 +21,11 @@ $block: 'fhb-follow-cta';
 	&__logo {
 		/* Instagram: use letter 'i' */
 		color: $white;
+		display: inline-block;
 		font-family: SocialicoPlus;
 		font-size: 100px;
 		line-height: 1;
+		transition: transform ease 300ms;
 	}
 
 	a {
@@ -39,8 +47,14 @@ $block: 'fhb-follow-cta';
 		}
 
 		@include media-breakpoint-up(sm) {
-			&:hover p strong {
-				border-bottom: 1px solid $white;
+			&:hover {
+				p strong {
+					border-bottom: 1px solid $white;
+				}
+
+				.#{$block}__logo {
+					transform: scale(1.1);
+				}
 			}
 		}
 	}

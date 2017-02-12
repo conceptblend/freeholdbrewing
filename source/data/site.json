@@ -1,21 +1,22 @@
 {
-	"title": "Prototype | Freehold Brewing Co.",
-	"description": "Prototype demonstrating layouts for Freehold Brewing Co.",
+	"title": "Freehold Brewing Co.",
+	"description": "Dedication to craft beer, connection to place, and a focus on innovation.",
 	"keywords": "beer, calgary, craft, craft beer",
 	"emails": {
 		"support": "hello@freeholdbrewing.ca"
 	},
 	"twitter": {
 		"card": "product",
-		"site": "@freeholdbrewing"
+		"site": "@freeholdbrewingco"
 	},
 	"opengraph": {
 		"title": "Freehold Brewing Co.",
 		"type": "website",
 		"sitename": "Freehold Brewing Co.",
-		"image": "",
+		"image": "http://www.freeholdbrewing.ca/images/prototype-brews.jpg",
 		"url": "http://www.freeholdbrewing.ca/",
 		"locale": "en_US"
 	},
-	"gtm": ""
+	"gtm": "",
+	"debug": true
 }

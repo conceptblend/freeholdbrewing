@@ -37,6 +37,10 @@ $lg-16x9-image-width: $lg-1x1-image-size * $multiplier-16x9;
 		max-width: map-get($container-max-widths, xl);
 	}
 
+	&__body {
+		text-align: left;
+	}
+
 	&--ratio-1x1 {
 		.#{$block}__image {
 			height: auto;
