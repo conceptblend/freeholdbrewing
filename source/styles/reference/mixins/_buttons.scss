@@ -1,0 +1,19 @@
+@mixin button ($color: $deep-black, $hover-text-color: $white, $hover-fill-color: $deep-black) {
+	border: 1px solid $color;
+	border-radius: 3px;
+	color: $color;
+	display: inline-block;
+	font-family: 'FHB Skinny Clean', Helvetica;
+	font-size: $font-size-small;
+	letter-spacing: -.125em;
+	padding: .6em 1em .3em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color 300ms ease, color 300ms ease;
+
+	&:hover {
+		background-color: $hover-fill-color;
+		border-color: $hover-text-color;
+		color: $hover-text-color;
+	}
+}

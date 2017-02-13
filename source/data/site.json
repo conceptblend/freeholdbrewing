@@ -3,10 +3,10 @@
 	"description": "Dedication to craft beer, connection to place, and a focus on innovation.",
 	"keywords": "beer, calgary, craft, craft beer",
 	"emails": {
-		"support": "hello@freeholdbrewing.ca"
+		"support": "info@freeholdbrewing.ca"
 	},
 	"twitter": {
-		"card": "product",
+		"card": "summary_card_large",
 		"site": "@freeholdbrewingco"
 	},
 	"opengraph": {
@@ -17,6 +17,6 @@
 		"url": "http://www.freeholdbrewing.ca/",
 		"locale": "en_US"
 	},
-	"gtm": "",
+	"gtm": "GTM-5NTJMX9",
 	"debug": true
 }

@@ -1,0 +1,39 @@
+// components/_fhb-footer.scss
+
+@import '../reference/reference';
+
+$block: 'fhb-footer';
+
+.#{$block} {
+	background-color: $deep-black;
+	padding-bottom: 2em;
+	padding-top: 2em;
+
+	&__logo-mark {
+		text-align: center;
+
+		@include media-min(sm) {
+			text-align: right;
+		}
+
+		img {
+			margin: 1em auto;
+
+			@include media-min(sm) {
+				margin: 0;
+			}
+		}
+	}
+
+	&__contact {
+		text-align: center;
+
+		@include media-min(sm) {
+			text-align: left;
+		}
+
+		a {
+			@include button(darken($white, 50%), $deep-black, $white);
+		}
+	}
+}

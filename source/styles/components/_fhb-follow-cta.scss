@@ -18,14 +18,27 @@ $block: 'fhb-follow-cta';
 	margin-right: ($grid-gutter-width / -2);
 	text-align: center;
 
-	&__logo {
-		/* Instagram: use letter 'i' */
-		color: $white;
+	&__logo { // Instagram logo
+		$logo-size: 64px;
+		background-repeat: no-repeat;
+		background-size: $logo-size;
 		display: inline-block;
-		font-family: SocialicoPlus;
-		font-size: 100px;
-		line-height: 1;
+		height: $logo-size;
+		margin: 1em auto;
 		transition: transform ease 300ms;
+		width: $logo-size;
+
+		.inlinesvg & {
+			background-image: url('../images/instagram-logo.svg');
+		}
+
+		.no-inlinesvg & {
+			background-image: url('../images/instagram-logo@2x.png');
+		}
+
+		& span {
+			@include sr-only;
+		}
 	}
 
 	a {

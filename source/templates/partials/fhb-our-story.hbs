@@ -1,7 +1,9 @@
 <div class="container-fluid fhb-our-story">
 	<div class="row">
 		<div class="col-xs-24">
-			<h2>{{#if source.heading}}{{source.heading}}{{else}}Osdfdur story{{/if}}</h2>
+			{{> fhb-hint }}
+			<a name="our-story" id="our-story"></a>
+			<h2>{{#if source.heading}}{{source.heading}}{{else}}Our story{{/if}}</h2>
 		</div>
 	</div>
 	{{#if source.subheading}}

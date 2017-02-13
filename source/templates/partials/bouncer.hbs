@@ -1,0 +1,22 @@
+<div class="overlay">
+</div>
+<div class="bouncer">
+	<div class="bouncer__logo">
+		<img src="./images/logo_full_k.png" height="36px" alt="Freehold Brewing Co."/>
+	</div>
+	<div class="bouncer__card-em">
+		<div class="bouncer__heading">Are you of legal drinking age where you live?</div>
+		<div class="bouncer__responses">
+			<a href="#yes" class="bouncer__response" onclick="handleBouncerResponse(true); return false;">Yes</a>
+			<a href="#no" class="bouncer__response" onclick="handleBouncerResponse(false); return false;">No</a>
+		</div>
+	</div>
+	{{!-- Alternate view --}}
+	<div class="bouncer__suggested-action">
+		<div class="bouncer__heading">Instead of buying beer, why not adopt a puppy ;)</div>
+		<div class="bouncer__responses">
+			<a href="http://aarcs.ca/" onclick="gtmEventHelper('bouncer', 'external-link', 'aarcs');" class="bouncer__response">Good idea</a>
+			<a href="https://www.google.ca/search?q=grumpy+cat+nope+meme&safe=active&tbm=isch" onclick="gtmEventHelper('bouncer', 'external-link', 'grumpy-cat');" class="bouncer__response">No thanks</a>
+		</div>
+	</div>
+</div>
