@@ -25,13 +25,13 @@ $lg-16x9-image-width: $lg-1x1-image-size * $multiplier-16x9;
 	margin-top: $global-vertical-spacing-base * 2;
 	text-align: center;
 
-	@include media-breakpoint-up(sm) {
+	@include media-min(sm) {
 		margin-bottom: $global-vertical-spacing-base * 4;
 		margin-top: $global-vertical-spacing-base * 4;
 		text-align: left;
 	}
 
-	@include media-breakpoint-up(xl) {
+	@include media-min(xl) {
 		margin-left: auto;
 		margin-right: auto;
 		max-width: map-get($container-max-widths, xl);
@@ -46,34 +46,34 @@ $lg-16x9-image-width: $lg-1x1-image-size * $multiplier-16x9;
 			height: auto;
 			width: 60%;
 
-			@include media-breakpoint-up(sm) {
+			@include media-min(sm) {
 				float: left;
 				height: $sm-1x1-image-size;
 				margin-right: $spacing;
 				width: $sm-1x1-image-size;
 			}
 
-			@include media-breakpoint-up(md) {
+			@include media-min(md) {
 				height: $md-1x1-image-size;
 				width: $md-1x1-image-size;
 			}
 
-			@include media-breakpoint-up(lg) {
+			@include media-min(lg) {
 				height: $lg-1x1-image-size;
 				width: $lg-1x1-image-size;
 			}
 		}
 
 		.#{$block}__details {
-			@include media-breakpoint-up(sm) {
+			@include media-min(sm) {
 				margin-left: $sm-1x1-image-size + $spacing;
 			}
 
-			@include media-breakpoint-up(md) {
+			@include media-min(md) {
 				margin-left: $md-1x1-image-size + $spacing;
 			}
 
-			@include media-breakpoint-up(lg) {
+			@include media-min(lg) {
 				margin-left: $lg-1x1-image-size + $spacing;
 			}
 		}
@@ -85,34 +85,34 @@ $lg-16x9-image-width: $lg-1x1-image-size * $multiplier-16x9;
 			height: auto;
 			width: 80%;
 
-			@include media-breakpoint-up(sm) {
+			@include media-min(sm) {
 				float: left;
 				height: $sm-1x1-image-size;
 				margin-right: $spacing;
 				width: $sm-4x3-image-width;
 			}
 
-			@include media-breakpoint-up(md) {
+			@include media-min(md) {
 				height: $md-1x1-image-size;
 				width: $md-4x3-image-width;
 			}
 
-			@include media-breakpoint-up(lg) {
+			@include media-min(lg) {
 				height: $lg-1x1-image-size;
 				width: $lg-4x3-image-width;
 			}
 		}
 
 		.#{$block}__details {
-			@include media-breakpoint-up(sm) {
+			@include media-min(sm) {
 				margin-left: $sm-4x3-image-width + $spacing;
 			}
 
-			@include media-breakpoint-up(md) {
+			@include media-min(md) {
 				margin-left: $md-4x3-image-width + $spacing;
 			}
 
-			@include media-breakpoint-up(lg) {
+			@include media-min(lg) {
 				margin-left: $lg-4x3-image-width + $spacing;
 			}
 		}
@@ -123,34 +123,34 @@ $lg-16x9-image-width: $lg-1x1-image-size * $multiplier-16x9;
 			height: auto;
 			width: 100%;
 
-			@include media-breakpoint-up(sm) {
+			@include media-min(md) {
 				float: left;
 				height: $sm-1x1-image-size;
 				margin-right: $spacing;
 				width: $sm-16x9-image-width;
 			}
 
-			@include media-breakpoint-up(md) {
+			@include media-min(md) {
 				height: $md-1x1-image-size;
 				width: $md-16x9-image-width;
 			}
 
-			@include media-breakpoint-up(lg) {
+			@include media-min(lg) {
 				height: $lg-1x1-image-size;
 				width: $lg-16x9-image-width; /*auto*/
 			}
 		}
 
 		.#{$block}__details {
-			@include media-breakpoint-up(sm) {
-				margin-left: $sm-16x9-image-width + $spacing;
+			@include media-min(sm) {
+				//margin-left: $sm-16x9-image-width + $spacing;
 			}
 
-			@include media-breakpoint-up(md) {
+			@include media-min(md) {
 				margin-left: $md-16x9-image-width + $spacing;
 			}
 
-			@include media-breakpoint-up(lg) {
+			@include media-min(lg) {
 				margin-left: $lg-16x9-image-width + $spacing;
 			}
 		}
@@ -163,13 +163,13 @@ $lg-16x9-image-width: $lg-1x1-image-size * $multiplier-16x9;
 		padding-bottom: $global-vertical-spacing-base;
 		padding-top: $global-vertical-spacing-base / 2;
 
-		@include media-breakpoint-up(sm) {
+		@include media-min(md) {
 			border-bottom: 0;
 			border-top: 3px solid $fhb-grey;
 			margin-right: $spacing;
 		}
 
-		@include media-breakpoint-up(lg) {
+		@include media-min(lg) {
 			padding-top: $global-vertical-spacing-base * 2;
 		}
 
@@ -200,11 +200,11 @@ $lg-16x9-image-width: $lg-1x1-image-size * $multiplier-16x9;
 		line-height: $line-height-heading;
 		margin-top: 0;
 
-		@include media-breakpoint-up(md) {
+		@include media-min(md) {
 			font-size: $font-size-large + 8;
 		}
 
-		@include media-breakpoint-up(lg) {
+		@include media-min(lg) {
 			font-size: $font-size-large + 12;
 		}
 	}

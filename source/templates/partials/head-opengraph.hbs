@@ -1,5 +1,5 @@
 {{#if site.title}}
-<title>{{ site.title }}</title>
+<title>{{{ site.title }}}</title>
 {{/if}}
 
 {{#if site.description}}
@@ -17,6 +17,14 @@
 <meta name="twitter:site" content="{{ site.twitter.site }}" />
 {{/if}}
 
+{{#if site.title}}
+<meta name="twitter:title" content="{{ site.title }}" />
+{{/if}}
+
+{{#if site.description}}
+<meta name="twitter:description" content="{{ site.description }}" />
+{{/if}}
+
 {{#if site.opengraph.image}}
 <meta name="twitter:image:src" content="{{ site.opengraph.image }}" />
 {{/if}}
@@ -26,6 +34,10 @@
 
 {{#if site.opengraph.title}}
 <meta property="og:title" content="{{ site.opengraph.title }}" />
+{{/if}}
+
+{{#if site.description }}
+<meta property="og:description" content="{{ site.description }}" />
 {{/if}}
 
 {{#if site.opengraph.type}}

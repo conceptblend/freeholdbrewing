@@ -1,20 +1,20 @@
 {
-	"title": "Freehold Brewing Co.",
-	"description": "Dedication to craft beer, connection to place, and a focus on innovation.",
+	"title": "Freehold Brewing Co. - Craft beer from Calgary, Alberta",
+	"description": "Dedicated to craft beer, connected to place, and focused on innovation.",
 	"keywords": "beer, calgary, craft, craft beer",
 	"emails": {
 		"support": "info@freeholdbrewing.ca"
 	},
 	"twitter": {
 		"card": "summary_card_large",
-		"site": "@freeholdbrewingco"
+		"site": "@freeholdbrewing"
 	},
 	"opengraph": {
 		"title": "Freehold Brewing Co.",
 		"type": "website",
 		"sitename": "Freehold Brewing Co.",
-		"image": "http://www.freeholdbrewing.ca/images/prototype-brews.jpg",
-		"url": "http://www.freeholdbrewing.ca/",
+		"image": "http://freeholdbrewing.ca/images/freehold-open-graph-image.jpg",
+		"url": "http://freeholdbrewing.ca/",
 		"locale": "en_US"
 	},
 	"gtm": "GTM-5NTJMX9",

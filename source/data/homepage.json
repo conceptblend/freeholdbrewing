@@ -2,13 +2,13 @@
 	"ourstory": {
 		"heading": "Our story",
 		"subheading": "Dedication to craft, connection to place, and a focus on innovation.",
-		"grafone": "The tradition of brewing beer is a long and celebrated one, and one which Freehold Brewing Co. is proud to be a part of. At its heart, Freehold embodies a respect for that tradition, and it’s with care and precision that we strive to build upon it.",
+		"grafone": "The tradition of brewing beer is a long and celebrated one, and one which Freehold Brewing Co. is proud to be a part of. At its heart, Freehold embodies a respect for that tradition, and it's with care and precision that we strive to build upon it.",
 		"graftwo": "Freehold was founded in 2016 by Matt James and Tavis Agnew, who envisioned something more than a brewery. They knew that steadfast dedication to the art of brewing had paved the way for a grander pursuit: a brewery and restaurant dedicated to evolving the definition of those terms. A true and honest reflection of place, Freehold is a celebration of Alberta."
 	},
 	"panels": [
 		{
 			"heading": "Past meets future.",
-			"body": "<p>Over 100 years old, the C.C. Snowdon building is a storied piece of Calgary history. Unpretentious and comforting, and at the same time a mix of old and new, the decision to call this building home was an easy one. Forward-looking, but within arm’s reach of the past, the Snowdon building is a metaphor for Freehold.</p>",
+			"body": "<p>Over 100 years old, the C.C. Snowdon building is a storied piece of Calgary history. Unpretentious and comforting, and at the same time a mix of old and new, the decision to call this building home was an easy one. Forward-looking, but within arm's reach of the past, the Snowdon building is a metaphor for Freehold.</p>",
 			"imageUrl": "./images/snowdon.jpg",
 			"ratio": "16x9",
 			"alignment": "left",
@@ -18,7 +18,7 @@
 		},
 		{
 			"heading": "A nostalgic approach to craft beer.",
-			"body": "<p>Driven by the unflinching desire to deliver brews of the highest possible quality, Freehold is constantly experimenting. The result is beer that advances the state of the art while paying respect to the heritage of one of mankind’s oldest beverages.</p>",
+			"body": "<p>Driven by the unflinching desire to deliver brews of the highest possible quality, Freehold is constantly experimenting. The result is beer that advances the state of the art while paying respect to the heritage of one of mankind's oldest beverages.</p><p>These prototypes enable Freehold to refine the taste experience for experts and casual beer fans alike.</p>",
 			"imageUrl": "./images/prototype-brews.jpg",
 			"ratio": "1x1",
 			"alignment": "left",
@@ -28,7 +28,7 @@
 		},
 		{
 			"heading": "Matt James",
-			"body": "<p>Matt James is a project management veteran. Prior to that, he had a decade-long career as a Red Seal Chef, during which he mastered his craft and deepened his knowledge of the science and artistry of food. His talents and skills have lent themselves well to brewing through beer science and recipe design, a deep understanding of guest experience, and management of the business of food and beverage.</p><p>Matt’s reason for making this journey is to connect him to his roots in hospitality &mdash; to create unique, enjoyable beverages and experiences for people to enjoy. Cheers to the beers.</p>",
+			"body": "<p>Matt's life purpose is to create memorable culinary experiences for his friends, family, and customers. His journey began in the kitchens of Vancouver, leading teams in elite hotel facilities and deepening his knowledge of the science and artistry of food. With an eye to striking out on his own, he began to hone his skills in business marketing, people management, and project management. Connecting with Tavis, in his spiritual homeland of Alberta, the dream of Freehold began to take shape: a place where everyone has a seat at the chef's table.</p><p>With Freehold, Matt's journey has come full circle, again crafting a unique food and beer experience for his friends and family.</p>",
 			"imageUrl": "./images/matt.jpg",
 			"ratio": "1x1",
 			"alignment": "left",
@@ -38,7 +38,7 @@
 		},
 		{
 			"heading": "Tavis Agnew",
-			"body": "<p>Having been jolted by inspirational words scrawled upon an art-house wall (\"Don’t follow in the footsteps of the masters, seek what they sought\"), Tavis embarked on the homebrew journey equipped with talents honed on the grindstone of project management, team leadership, and sales. After years of toiling for others he realized he wanted the sweat dripping off his brow to contribute to his dream of opening a brewery. Working with Matt James and an incredibly talented team, Freehold Brewing Co. was brought to life.</p>",
+			"body": "<p>Having been jolted by inspirational words scrawled upon an art-house wall (\"Don't follow in the footsteps of the masters, seek what they sought\"), Tavis embarked on the homebrew journey equipped with talents honed on the grindstone of project management, team leadership, and sales. After years of toiling for others he realized he wanted the sweat dripping off his brow to contribute to his dream of opening a brewery. Working with Matt James and an incredibly talented team, Freehold Brewing Co. was brought to life.</p>",
 			"imageUrl": "./images/tavis.jpg",
 			"ratio": "1x1",
 			"alignment": "left",

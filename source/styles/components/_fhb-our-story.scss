@@ -7,10 +7,16 @@ $block: 'fhb-our-story';
 .#{$block} {
 	background-color: $white;
 	font-size: $font-size-medium + 2;
-	padding-bottom: $global-vertical-spacing-base * 4;
+	padding-bottom: $global-vertical-spacing-base * 3;
 	padding-top: $global-vertical-spacing-base * 3;
 
-	@include media-breakpoint-up(xl) {
+	/*
+	@include media-min(md) {
+		padding-bottom: $global-vertical-spacing-base * 4;
+	}
+	*/
+
+	@include media-min(xl) {
 		margin-left: auto;
 		margin-right: auto;
 		max-width: map-get($container-max-widths, xl);
