@@ -6,15 +6,15 @@
 		"support": "info@freeholdbrewing.ca"
 	},
 	"twitter": {
-		"card": "summary_card_large",
+		"card": "summary_large_image",
 		"site": "@freeholdbrewing"
 	},
 	"opengraph": {
 		"title": "Freehold Brewing Co.",
 		"type": "website",
 		"sitename": "Freehold Brewing Co.",
-		"image": "http://freeholdbrewing.ca/images/freehold-open-graph-image.jpg",
-		"url": "http://freeholdbrewing.ca/",
+		"image": "http://www.freeholdbrewing.ca/images/freehold-open-graph-image.jpg",
+		"url": "http://www.freeholdbrewing.ca/",
 		"locale": "en_US"
 	},
 	"gtm": "GTM-5NTJMX9",
